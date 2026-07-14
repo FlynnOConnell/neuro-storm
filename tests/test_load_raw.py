@@ -1,7 +1,7 @@
 import numpy as np
 import tifffile
 
-from neuro_storm.bin.load_raw import find_tiffs, load_raw
+from neuro_storm.cli.load_raw import find_tiffs, load_raw
 
 
 def test_load_raw_directory(tmp_path):

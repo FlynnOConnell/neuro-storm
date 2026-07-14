@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [project.scripts]
-load-raw = "neuro_storm.bin.load_raw:main"
+load-raw = "neuro_storm.cli.load_raw:main"
 
 [project.urls]
 Homepage = "https://FlynnOConnell.github.io/neuro-storm/"

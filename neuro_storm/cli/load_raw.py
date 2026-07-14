@@ -10,7 +10,7 @@
 
 Run standalone (uv reads the inline metadata block above)::
 
-    uv run neuro_storm/bin/load_raw.py ~/lbm_data/raw
+    uv run neuro_storm/cli/load_raw.py ~/lbm_data/raw
 
 Or, once the package is installed, via its console-script entry point::
 
