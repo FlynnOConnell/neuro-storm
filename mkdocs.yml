@@ -1,0 +1,52 @@
+site_name: neuro-storm
+repo_url: https://github.com/FlynnOConnell/neuro-storm
+site_url: https://FlynnOConnell.github.io/neuro-storm
+site_description: Brainstorming utilities for optical neuroscience data processing and visualization
+site_author: Flynn OConnell
+edit_uri: edit/main/docs/
+repo_name: FlynnOConnell/neuro-storm
+copyright: Maintained by <a href="https://FlynnOConnell.com">FlynnOConnell</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["neuro_storm"]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FlynnOConnell/neuro-storm
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/neuro-storm
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
