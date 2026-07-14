@@ -17,6 +17,13 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "tifffile>=2024.1.30",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+load-raw = "neuro_storm.bin.load_raw:main"
 
 [project.urls]
 Homepage = "https://FlynnOConnell.github.io/neuro-storm/"
