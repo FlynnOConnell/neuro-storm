@@ -209,3 +209,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# masknmf pipeline output (from cli/masknmf_gui.py)
+masknmf_out/
